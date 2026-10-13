@@ -1,0 +1,20 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  background: #0d0e17;
+  overflow: hidden;
+  cursor: none;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+canvas {
+  display: block;
+  /* keep the low-res canvas crisp when scaled up */
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
